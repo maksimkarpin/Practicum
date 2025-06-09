@@ -1,0 +1,39 @@
+body {background-color: silver;
+divz {
+h4 {color:red;}
+text-align: center;
+}
+div8{text-transform: capitalize;
+font-family: 'Courier New';}
+div9{text-align: end;
+}
+div10{text-align: center;
+}
+div11{word-spacing: 50px;}
+div12{
+p{width: 300px;
+height: 20px;
+border: 9px solid pink;}}
+
+table
+ {background-color: green;
+   border-collapse: separate;
+   border-spacing: 10px 20px;
+    empty-cells: show;
+
+   border-collapse: collapse;
+   border: 3px solid black;}
+th {
+   border: 1px solid grey;}
+td {
+   border: 1px solid grey;
+}
+th {
+   width: 20%;
+}
+th, td {
+   padding: 10px 15px;
+   border: 2px solid #69c;
+}
+
+}
