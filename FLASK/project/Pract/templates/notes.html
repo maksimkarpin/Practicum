@@ -1,0 +1,32 @@
+{% extends 'index3.html' %}
+    {% block content %}
+    <main>
+    <h1>Записи</h1>
+
+    <ul class="cards-list">
+    <li class="card">
+        <a class="cart_link">
+            <div class="card__text">
+            <h2 class="card__title">{{t}}</h2>
+            <p class="card__subtitle">{{note}}</p>
+            </div>
+        </a>
+    </li>
+
+    <a class="creat__link" >
+    <form  action="/create">
+        <button type="/create">Создать запись</button>
+    </form>
+    </a>
+    </ul>
+    </main>
+
+
+
+
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends 'index3.html' %}
+    {% block content %}
+    <main>
+    <h1>Записи</h1>
+     <form action="/lesson3" method="POST" class="create-form">
+         <label for="heading">
+       <input class="form__input" type="text" name="heading" id="heading" placeholder="Введите заголовок" required>
+         </label>
+       <br><label for="text">
+       <input class="form__input" type="text" name="text" id="text" placeholder="Введите запись" required>
+         </label>
+       <button class="form__button">Создать</button>
+
+
+
+    </form>
+    </main>
+{% endblock %}
