@@ -7,7 +7,7 @@ from ORM.tables.file_in_users import FilesInMaximus
 from ODT.users import UsersDTO
 from fastapi import FastAPI, APIRouter
 from  ODT.users import UsersDTO
-
+from celery import Celery
 import ORM.get as user_get
 from sqlalchemy import create_engine, String, Column, Integer
 from sqlalchemy.ext.declarative import declarative_base
